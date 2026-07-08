@@ -12,7 +12,7 @@
 class Solution {
 public:
      vector<vector<int>>result;
-     void fill(TreeNode *root,int sum ,vector<int>temp, int & targetSum){
+     void fill(TreeNode *root,int sum ,vector<int>temp, int  targetSum){
         
      if(root==NULL)
      return ;
