@@ -16,11 +16,11 @@ public:
                 j--;
             }
 
-            if(nums[i]+nums[j] > k){
+            else if(nums[i]+nums[j] > k){
                 j--;
             }
 
-            if(nums[i]+nums[j] <k){
+            else{
                 i++;
             }
         }
